@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
     removeButtons.forEach(button => {
       button.addEventListener('click', function () {
         const itemName = button.dataset.name;
+        console.log(itemName)
         removeCartItem(itemName);
         updateCartTotal();
       });
@@ -124,6 +125,7 @@ document.addEventListener('DOMContentLoaded', function () {
     cart = cart.filter(item => item.name !== name);
     displayCartItems();
   }
+
   function updateCartTotal() {
     const total = cart.reduce((acc, item) => acc + item.valor, 0);
     cartTotal.textContent = `R$ ${total.toFixed(2)}`;
