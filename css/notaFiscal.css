@@ -1,0 +1,92 @@
+body{
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: poppinslight;
+  width: 100%;
+  margin: 10 auto;
+  padding: 20px;
+  align-items: center;
+}
+#list-container{
+  margin: 0 auto;
+  padding: 10px;
+  width: 60%;
+  border: 2px solid rgb(132, 14, 201);
+  border-radius: 15px;
+}
+li {
+  background: rgb(132, 14, 201);
+  padding: 0px;
+  margin-left: 35px; 
+  margin-right: 35px;
+  margin-bottom: 30px;
+}
+ol {
+  background: rgb(132, 14, 201);
+  padding: 20px;
+}
+.nome{
+  position: relative;
+  top: 0px;
+  left: 10%;
+  font-size:20px;
+}
+.preco{
+  position: relative;
+  top: 0px;
+  left: 10%;
+  font-size:20px;
+  }
+  .qtd{
+  position: relative;
+  top: 0px;
+  left: 10%;
+  font-size:20px;
+  }
+  .valor{
+  position: relative;
+  top: -50px;
+  left: 80%;
+  font-size:20px;
+  }
+  #valor-total{
+  position: relative;
+  top: 0px;
+  left: 5%;
+  font-size:30px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  }
+  #qrcode{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  #total2{
+  position: relative;
+  top: -105px;
+  left: 80%;
+  font-size:40px;
+  color: rgb(255, 255, 255);
+  }
+
+  @media screen and (max-width: 760px){
+    #list-container{
+      margin: 10px;
+      padding: 10px;
+    }
+    #total2{
+      position: relative;
+      top: -105px;
+      left: 50%;
+      font-size:40px;
+    }
+    #list-container{
+      margin: 5px;
+      padding: 0px;
+      width: 90%;
+      border: 2px solid rgb(132, 14, 201);
+     border-radius: 15px;
+    }
+  }

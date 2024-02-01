@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" media="all" href="../css/fonts.css" rel="stylesheet">
+    <link type="text/css" media="all" href="../css/notaFiscal.css" rel="stylesheet">
+    <link href="../css/w3.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <title>page payment</title>
+</head>
+<body>
+   
+  <div class="w3-container" id="list-container" > 
+     <h1 class="w3-center">finalizar pagamento</h1>
+     <ul class="w3-ul w3-margin" id="lista">
+      <ol class="w3-center">nota fiscal</ol>
+     </ul>
+     <p id="valor-total">Total</p>
+     <div id="total2"></div>
+    <main>
+      <p class="w3-center"> codigo gerado para pagamento<p>
+      <div id="qrcode"></div>
+    </main>
+  </div>  
+  <div id="forma-pagamento"></div>
+<script>
+    var qrcode = new QRCode("qrcode", "https://www.desenvolvimentowebfreelancer.com");
+</script>
+    <script src="../js/notaFiscal.js"></script>   
+</body>
+</html>

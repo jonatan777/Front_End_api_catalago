@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Upload de Imagem</title>
+  <link type="text/css" media="all" href="../css/w3.css" rel="stylesheet">
+  <link type="text/css" media="all" href="../css/uploadImagem.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="header"></div>
+  <h4 id="titulo">Imagens Produtos</h4>
+  <div id="sairPageImage" class="w3-display-topright">
+    <p onclick="redirect1()">SAIR</p>
+  </div>
+  <br>
+  <br>
+  <div id="btns" class="w3-center">
+    <input class="w3-button w3-black" name='image' id="arquivo" type="file" onchange="return validarArquivo()" accept="image/png, image/jpeg" />
+    <input class="w3-button w3-black" type="submit" value="SALVAR" onclick="salvarImagem()">
+    <input class="w3-button w3-black" type="submit" value="CANCELAR" onclick="redirect3()">
+  </div>
+  <div id="FormBuscarIagem">
+    <div id="visualizarRespostaServidor"></div>
+    <div id="visualizarImagem" class="w3-center"></div>
+    <div id="visualizarUrl" class="w3-center">
+      <img class="imagem" src="http://via.placeholder.com/350x150" alt="Sua imagem">
+    </div>
+    <br>
+    <div id="root"></div>
+    <div id="listaUrl">
+      <ul id="listUrlImage" class="w3-ul"></ul>
+    </div>
+  </div>
+  <script src="/js/uploadImageProduto.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+</body>
+</html>

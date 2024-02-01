@@ -1,0 +1,35 @@
+#sair{  
+margin: 10px;
+padding: 20px;
+}
+li{
+display: inline-block;
+margin: 10px;   
+}
+a:hover{
+color: rgb(132, 14, 201);
+transition: 0.3s all;   
+}
+#tabelaEditar{
+font-size: 16px;
+margin: 20px;
+padding: 10pspx;
+}
+#dadosProduto{
+ border: 1px solid #1c1a1f;
+ width: 80%;
+ margin: 0 auto;
+ padding: 10px;
+ background-color: #1c1a1f;
+ color: #ffffff;
+}
+#tabelaEditar{
+ background-color: #0d0c0e;
+ color: #1b1a1a;
+ margin: 10px;
+ padding: 5px;
+}
+body{
+    background-color: #0d0c0e;
+    color: #f5eaea;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#5f5eaa">
+  <title>login page</title>
+
+  <link rel="stylesheet" href="/css/w3.css">
+  <link rel="stylesheet" href="/css/login.css">
+ </head>
+<body>
+    <div id="header"></div>
+   <br>
+   <br>
+        <div id="login">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Admim</h2>
+                </div>
+                <div class="w3-blue" id="result"></div>
+                <div class="card-content">
+                    <div class="card-content-area">
+                        <label for="usuario">Login</label>
+                        <input type="text" id="user" autocomplete="off">
+                    </div>
+                    <div class="card-content-area">
+                        <label for="password">Senha</label>
+                        <input type="password" id="senha" autocomplete="off">
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <input type="submit" value="login" onclick="autorizacao()" class="submit" id="sub">
+                </div>
+            </div>
+        </div>
+    <script src="/js/login.js"></script>
+</body>
+</html>

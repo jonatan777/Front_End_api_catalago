@@ -1,0 +1,37 @@
+body{
+background-color: rgb(34, 34, 34);
+color: white;
+font-family: poppinslight;
+width: 100%;
+margin: 10 auto;
+padding: 20px;
+align-items: center;
+}
+body{
+background-color: rgb(34, 34, 34);
+color: white;
+font-family: poppinslight;
+width: 100%;
+margin: 10 auto;
+padding: 20px;
+align-items: center;
+}
+#menu{
+display: inline-block;
+padding: 20px;
+margin: 20px;
+line-height: 40px;
+}
+a{
+text-decoration:none; 
+}
+p{
+margin: 10px;
+cursor: pointer;
+font-size: 36px;
+line-height: 35px;
+}
+p:hover{
+color: rgb(132, 14, 201);
+transition: 0.3s all; 
+}

@@ -1,0 +1,41 @@
+#cart {
+  width: 100%;
+    border: 1px solid #1a1414;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 15px;
+  }
+  #cart-total2{
+    font-size: 56px;
+    line-height: 55px;
+    font-family: poppinsmedium;
+    margin: 0 auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #5a1ac0;
+    padding: 8px;
+    text-align: left;
+    color: aliceblue;
+  }
+  th {
+   /* background-color: #23bd51;*/
+    background-color: rgb(132, 14, 201);
+  }
+  .remove-item {
+    cursor: pointer;
+    color: red;
+  }
+  #carrinhoImage{
+    width: 150px;
+    height: 100px;
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+
+
