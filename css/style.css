@@ -111,6 +111,13 @@ top: 120px;
 left: -250px;
 font-size: 30px;
 }
+#linkDev{
+  text-align: center;
+    margin: 5px;
+    padding: 0px;
+    font-size: 15px;
+    text-decoration: none;
+  }
 footer {
 background-color: #000000;
 color: #fff;
